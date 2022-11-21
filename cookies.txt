@@ -1,0 +1,9 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+lixingyong.com	TRUE	/	FALSE	1999999999	JSESSIONID	node06mydml7sg9eg1heilw2qjr6zf182532.node0
+hm.baidu.com	TRUE	/	FALSE	1999999999	HMACCOUNT	34C9599C98724C28
+cdn.nlark.com	TRUE	/	FALSE	1999999999	cdn_sec_tc	74a27f1d16690009224195169e9ee46e3b648f1053dfbe652cee392f64
+.douban.com	TRUE	/	FALSE	1999999999	bid	-wkOcNbTBnk
+.sina.com.cn	TRUE	/	FALSE	1999999999	U_TRS1	0000005d.d090ef0c.637aeeee.d8a886c5
+.sina.com.cn	TRUE	/	FALSE	1999999999	U_TRS2	0000005d.d09eef0c.637aeeee.5797e143
+

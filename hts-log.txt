@@ -1,0 +1,31 @@
+HTTrack3.49-2+htsswf+htsjava launched on Mon, 21 Nov 2022 11:17:30 at https://lixingyong.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "zh, en, *" https://lixingyong.com/ -O1 "D:\Halo\Halo" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+11:22:21	Error: 	"Forbidden" (403) at link https://cdn.nlark.com/yuque/0/2020/png/1387674/1597304720796-71f3dfb2-c725-4c3b-b9f3-85c967c27cd6.png (from https://lixingyong.com/2020/08/14/xxl-job)
+11:22:21	Error: 	"Forbidden" (403) at link https://cdn.nlark.com/yuque/0/2020/png/1387674/1597305507303-90861c4a-d1b4-4364-8391-13f8f780d1ac.png (from https://lixingyong.com/2020/08/14/xxl-job)
+11:22:21	Error: 	"Forbidden" (403) at link https://cdn.nlark.com/yuque/0/2020/png/1387674/1597306689535-29408af2-8fea-4ab4-8681-5bf7ebf23924.png (from https://lixingyong.com/2020/08/14/xxl-job)
+11:22:21	Error: 	"Forbidden" (403) at link https://cdn.nlark.com/yuque/0/2020/png/1387674/1597309997189-4c846e37-c60b-42ba-aec1-dd0946091ab5.png (from https://lixingyong.com/2020/08/14/xxl-job)
+11:22:21	Error: 	"Forbidden" (403) at link https://cdn.nlark.com/yuque/0/2020/png/1387674/1597312122951-a16e6840-305e-418d-9ecb-c8640e662d36.png (from https://lixingyong.com/2020/08/14/xxl-job)
+11:22:21	Error: 	"Forbidden" (403) at link https://cdn.nlark.com/yuque/0/2020/png/1387674/1597312992193-e2f0e06c-3bac-48f6-8062-7c18a4581a62.png (from https://lixingyong.com/2020/08/14/xxl-job)
+11:22:21	Error: 	"Forbidden" (403) at link https://cdn.nlark.com/yuque/0/2020/png/1387674/1597314556609-5b0b2c93-96d8-4688-bfc8-0a002a4848e8.png (from https://lixingyong.com/2020/08/14/xxl-job)
+11:22:21	Error: 	"Forbidden" (403) at link https://cdn.nlark.com/yuque/0/2020/png/1387674/1597314689223-3bd67cde-e19b-4687-ad89-05178baac27c.png (from https://lixingyong.com/2020/08/14/xxl-job)
+11:22:21	Error: 	"Forbidden" (403) at link https://cdn.nlark.com/yuque/0/2020/png/1387674/1597314773956-efc91f29-bd4a-4b6d-bb86-d6d0b8681dca.png (from https://lixingyong.com/2020/08/14/xxl-job)
+11:22:21	Error: 	"Forbidden" (403) at link https://cdn.nlark.com/yuque/0/2020/png/1387674/1594368055652-b9fd77a8-e9a4-4acb-aad0-9c1af732389c.png (from https://lixingyong.com/2020/08/13/mybatis)
+11:22:21	Warning: 	Found for https://service.weibo.com/robots.txt
+11:22:21	Warning: 	File has moved from https://service.weibo.com/robots.txt to http://service.t.sina.com.cn/robots.txt
+11:22:27	Warning: 	Moved Permanently for www.linkedin.com/robots.txt
+11:22:27	Warning: 	Redirected link is identical because of 'URL Hack' option: www.linkedin.com/robots.txt and https://www.linkedin.com/robots.txt
+11:22:27	Warning: 	Warning moved treated for www.linkedin.com/robots.txt (real one is https://www.linkedin.com/robots.txt)
+11:22:27	Error: 	"Invalid HTTP Request" (400) at link www.linkedin.com/shareArticle?mini=true&ro=true&title=Hello,World|Takagi&url=https://lixingyong.com/2020/06/08/helloworld&summary=%e6%8d%ae%e8%af%b4%ef%bc%8c%e7%ac%ac%e4%b8%80%e7%af%87%e6%96%87%e7%ab%a0%e6%98%afhelloworld%e4%bc%9a%e5%b8%a6%e6%9d%a5%e5%a5%bd%e8%bf%90%e5%93%a6%ef%bc%81&source=https://cdn.lixingyong.com/halo-sakura/image/4afbfbedab64034fa5c6fe07a0c379310a551da3_1591686002904.jpg?x-oss-process=style/blog_seal&armin=armin (from https://lixingyong.com/2020/06/08/helloworld)
+11:22:35	Error: 	"Not Found" (404) at link https://connect.qq.com/widget/shareqq/url (from https://connect.qq.com/widget/shareqq/index.html?url=https://lixingyong.com/2020/06/08/helloworld&title=Hello,World|Takagi&source=Hello,World|Takagi&desc=%e6%8d%ae%e8%af%b4%ef%bc%8c%e7%ac%ac%e4%b8%80%e7%af%87%e6%96%87%e7%ab%a0%e6%98%afhelloworld%e4%bc%9a%e5%b8%a6%e6%9d%a5%e5%a5%bd%e8%bf%90%e5%93%a6%ef%bc%81&pics=https://cdn.lixingyong.com/halo-sakura/image/4afbfbedab64034fa5c6fe07a0c379310a551da3_1591686002904.jpg?x-oss-process=style/blog_seal&summary=%e6%8d%ae%e8%af%b4%ef%bc%8c%e7%ac%ac%e4%b8%80%e7%af%87%e6%96%87%e7%ab%a0%e6%98%afhelloworld%e4%bc%9a%e5%b8%a6%e6%9d%a5%e5%a5%bd%e8%bf%90%e5%93%a6%ef%bc%81)
+11:22:37	Warning: 	Retry after error -5 (Unable to get server's address: 不知道这样的主机。 ) at link s1.sinaedge.com/whb.gif?t= (from tjs.sjs.sinajs.cn/t5/register/js/page/remote/loginLayer.js?_v=)
+11:22:37	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link s1.sinaedge.com/whb.gif?t= (from tjs.sjs.sinajs.cn/t5/register/js/page/remote/loginLayer.js?_v=)
+11:22:37	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link s1.sinaedge.com/whb.gif?t= (from tjs.sjs.sinajs.cn/t5/register/js/page/remote/loginLayer.js?_v=)
+
+HTTrack Website Copier/3.49-2 mirror complete in 5 minutes 7 seconds : 336 links scanned, 315 files written (133383390 bytes overall) [129118062 bytes received at 420580 bytes/sec], 6711596 bytes transferred using HTTP compression in 125 files, ratio 32%, 4.0 requests per connection
+(13 errors, 7 warnings, 0 messages)
