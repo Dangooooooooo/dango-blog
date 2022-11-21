@@ -1,0 +1,119 @@
+<!DOCTYPE HTML>
+<html>
+
+
+<!-- Mirrored from connect.qq.com/widget/shareqq/index.html?url=https://lixingyong.com/2020/06/08/helloworld&title=Hello,World|Takagi&source=Hello,World|Takagi&desc=%e6%8d%ae%e8%af%b4%ef%bc%8c%e7%ac%ac%e4%b8%80%e7%af%87%e6%96%87%e7%ab%a0%e6%98%afhelloworld%e4%bc%9a%e5%b8%a6%e6%9d%a5%e5%a5%bd%e8%bf%90%e5%93%a6%ef%bc%81&pics=https://cdn.lixingyong.com/halo-sakura/image/4afbfbedab64034fa5c6fe07a0c379310a551da3_1591686002904.jpg?x-oss-process=style/blog_seal&summary=%e6%8d%ae%e8%af%b4%ef%bc%8c%e7%ac%ac%e4%b8%80%e7%af%87%e6%96%87%e7%ab%a0%e6%98%afhelloworld%e4%bc%9a%e5%b8%a6%e6%9d%a5%e5%a5%bd%e8%bf%90%e5%93%a6%ef%bc%81 by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 21 Nov 2022 03:22:25 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+  <meta charset="UTF-8">
+  <title>发送给QQ好友和群组</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1" />
+  <script src="../../js/qqapi.js"></script>
+  <script type="text/javascript">
+    var _startTime = +(new Date());
+  </script>
+  <style>
+    html,body{
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      background-color: #333333;
+    }
+    .content{
+      background-color: #ffffff;
+      margin-top: 50px;
+      height: 296px;
+      width: 296px;
+      box-sizing: border-box;
+      margin: 15% auto;
+    }
+    #qrcode{
+      top: 20px;
+      left: 20px;
+      position: relative;
+    }
+    .tips-area{
+      margin-top: -10%;
+    }
+    .tips{
+      text-align: center;
+      width: 100%;
+      font-size: 20px;
+      color: #ffffff;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="content" class="content">
+    <div id="qrcode">
+      
+    </div>
+   
+  </div>
+  <div class="tips-area">
+    <div class="tips">手机QQ扫描二维码，点击右上角 ··· 按钮</div>
+  <div class="tips">分享到QQ好友或QQ空间</div>
+  </div>
+  
+
+  <script src="../../../framework.cdn-go.cn/qlib/1.17.1/index.js"></script>
+  <script src="../../../static-res.qq.com/static-res/accounts.qq.com/qrcode.min.js"></script>
+  <script>
+    var url = qlib.url.getParam('url');
+    console.log(url)
+    var host = '';
+    var jumpUrl = 'https://www.urlshare.cn/umirror_url_check?url=' + encodeURIComponent(url);
+    try {
+      host = new URL(url.html).host.split('.')
+      if (host[host.length-2] === 'qq' && host[host.length-1] === 'com') {
+        jumpUrl = url
+      }
+    } catch (e) {
+    }
+    var qrcode = new QRCode(document.getElementById("qrcode"), {
+      text: jumpUrl,
+      width: 256,
+      height: 256,
+      colorDark : "#000000",
+      colorLight : "#ffffff",
+      correctLevel : QRCode.CorrectLevel.H
+    });
+  </script>
+  <script type="text/javascript">
+    var console;
+    try {
+      console = window.console || { log: function () { } };
+    } catch (e) {
+      console = { log: function () { } };
+    }
+  </script>
+  <script>
+
+    function closeLoginBox() {
+      var mask = document.getElementById('mask');
+      var login_div = document.getElementById('login_div');
+      mask && mask.setAttribute('style', 'display: none; height: 736px;');
+      login_div && login_div.setAttribute('style', 'display: none;');
+    }
+
+    function messageHandler(e) {
+      console.log(e)
+      if (e && e.data && e.data.type == "loginSucess") {
+        window.loginCallback && window.loginCallback()
+      }
+      if (e && (typeof e.data === 'string') && e.data.indexOf('"action":"close"') > -1) {
+        // $('#login_frame').remove()
+        closeLoginBox();
+      }
+
+    }
+    window.addEventListener("message", messageHandler, false)
+  </script>
+  <script src="../../../qq-web.cdn-go.cn/connect.qq.com_widget_shareqq/latest/reportkit.js"></script>
+</body>
+
+
+<!-- Mirrored from connect.qq.com/widget/shareqq/index.html?url=https://lixingyong.com/2020/06/08/helloworld&title=Hello,World|Takagi&source=Hello,World|Takagi&desc=%e6%8d%ae%e8%af%b4%ef%bc%8c%e7%ac%ac%e4%b8%80%e7%af%87%e6%96%87%e7%ab%a0%e6%98%afhelloworld%e4%bc%9a%e5%b8%a6%e6%9d%a5%e5%a5%bd%e8%bf%90%e5%93%a6%ef%bc%81&pics=https://cdn.lixingyong.com/halo-sakura/image/4afbfbedab64034fa5c6fe07a0c379310a551da3_1591686002904.jpg?x-oss-process=style/blog_seal&summary=%e6%8d%ae%e8%af%b4%ef%bc%8c%e7%ac%ac%e4%b8%80%e7%af%87%e6%96%87%e7%ab%a0%e6%98%afhelloworld%e4%bc%9a%e5%b8%a6%e6%9d%a5%e5%a5%bd%e8%bf%90%e5%93%a6%ef%bc%81 by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 21 Nov 2022 03:22:26 GMT -->
+</html>
